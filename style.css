@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+    #navbarMenu {
+      display: none !important;
+    }
+  }
+
+  html {
+    font-size: 16px;
+    color: #222222;
+    }
+    
+    /**** Nav Style ***/
+    
+    .nav-link {
+        color: black;
+        font-weight: normal;
+    }
+    
+    .nav-link:hover {
+        color: #01838A !important;
+        
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border: none;
+        }
