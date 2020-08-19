@@ -16,13 +16,13 @@
     <body>
         <header>
             <!-- nav for xl screens -->
-            <nav class="navbar navbar-expand-sm navbar-light bg-white border-top border-bottom pb-3 pt-3">
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm border-bottom pb-3 pt-3">
                 <a href="#" class="nav-link navbar-brand"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse float-right text-right pr-3" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse float-right text-center pr-3" id="navbarNavDropdown">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item active pr-4">
                             <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
@@ -46,17 +46,19 @@
 
         <!-- Hero Main  First Section -->
 
-        <div class="container" id="about">
+        <div class="container">
             <div class="row">
                 <!--<div class="col-12 col-md-4 my-5">
                     <h2>About</h2>
                 </div> -->
-                <div class="col-12 my-5 d-flex flex-column justify-content-center">
-                    <h2 class="main-title text-dark">Sierra Zang</h2>
+                <div class="col-12 col-md-4 my-5 d-flex flex-column justify-content-center align-center">
+                    <img class="img-fluid rounded" id="headshot" src="images/headshot.jpeg" max-width=50%>
+                </div>
+                <div class="col-12 col-md-4 my-5 d-flex flex-column justify-content-center align-center">
+                    <h2 class="main-title text-dark" id="about">Sierra Zang</h2>
                     <br>
-                    <h5>New York City Area<br><br>sierrazang523@gmail.com</h5>
-                    <br>
-                    <p class="main-text">Blurb about me.</p>
+                    <h5>New York City Area</h5>
+                    <h6>sierrazang523@gmail.com</h6>
                     <br>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/in/sierrazang/" target="_blank"> 
@@ -70,20 +72,23 @@
                         </a>
                     </div>
                 </div>
+                <div class="col-12 col-md-4 my-5 d-flex flex-column justify-content-center">
+                    <p class="main-text">Aspiring Full-Stack developer with an operations background. Experience with office IT support and admin of org wide tools.</p>
+                </div>
             </div>
         </div>    
 
-        <div class="container" id="projects">
+        <div class="container bg-info text-light" id="projects">
             <div class="row">
                 <!--<div class="col-12 col-md-4 my-5">
                     <h2>About</h2>
                 </div> -->
                 <div class="col-12 my-5 d-flex flex-column justify-content-center">
-                    <h2 class="main-title text-dark">Projects</h2>
+                    <h2 class="main-title">Projects</h2>
                 </div>
                 <div class="col-12 col-md-4 my-3">
                     <img class="img-fluid rounded" src="images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg">
-                    <h4 class="main-title mt-3"><a href="#" class="text-dark">Project Title</a></h4>
+                    <h4 class="main-title mt-3"><a href="#" class="text-light">Project Title</a></h4>
                     <p class="main-text">Description of Project.
                     </p>
                     <p class="coding-languages">Coding Languages</p>
@@ -92,7 +97,7 @@
 
                 <div class="col-12 col-md-4 my-3">
                     <img class="img-fluid rounded" src="images/henry-be-IicyiaPYGGI-unsplash.jpg">
-                    <h4 class="main-title mt-3"><a href="#" class="text-dark">Project Title</a></h4>
+                    <h4 class="main-title mt-3"><a href="#" class="text-light">Project Title</a></h4>
                     <p class="main-text">Description of Project.
                     </p>
                     <p class="coding-languages">Coding Languages</p>
@@ -101,7 +106,7 @@
 
                 <div class="col-12 col-md-4 my-3">
                     <img class="img-fluid rounded" src="images/frank-mckenna-4V8JxijgZ_c-unsplash.jpg">
-                    <h4 class="main-title mt-3"><a href="#" class="text-dark">Project Title</a></h4>
+                    <h4 class="main-title mt-3"><a href="#" class="text-light">Project Title</a></h4>
                     <p class="main-text">Description of Project.
                     </p>
                     <p class="coding-languages">Coding Languages</p>
@@ -125,7 +130,7 @@
                             <div class="subheading mb-3">Full-Stack Web Development Program</div>
                             <div>HTML, CSS, JavaScript, React, Ruby and Rails</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-info">August 2020 - Present</span></div>
                     </div>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -135,7 +140,7 @@
                             <div>Music Education</div>
                             <p>GPA: 4.0</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2014 - May 2016</span></div>
+                        <div class="flex-shrink-0"><span class="text-info">August 2014 - May 2016</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -144,19 +149,19 @@
                             <div>Music Education</div>
                             <p>GPA: 4.00</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2010 - May 2014</span></div>
+                        <div class="flex-shrink-0"><span class="text-info">August 2010 - May 2014</span></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container" id="skills">
+        <div class="container bg-info text-light" id="skills">
             <div class="row">
                 <!--<div class="col-12 col-md-4 my-5">
                     <h2>About</h2>
                 </div> -->
                 <div class="col-12 my-5 d-flex flex-column justify-content-center">
-                    <h2 class="main-title"><a href="#" class="text-dark">Skills</a></h2>
+                    <h2 class="main-title"><a href="#" class="text-light">Skills</a></h2>
                     <br>
                     <h4>Programming Languages & Tools</h4>
                     <br>
@@ -190,7 +195,7 @@
                     <h2 class="main-title"><a href="#" class="text-dark">Certifications</a></h2>
                     <br>
                     <div>
-                        <a href="https://www.freecodecamp.org/certification/szang523/responsive-web-design" target="_blank"> 
+                        <a class="text-primary" href="https://www.freecodecamp.org/certification/szang523/responsive-web-design" target="_blank"> 
                             <i class="fab fa-free-code-camp fa-2x d-inline align-middle"></i>
                             <p class="d-inline align-middle">Responsive Web Design</p>
                         </a>

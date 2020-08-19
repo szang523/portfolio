@@ -1,3 +1,5 @@
+
+
 @media (min-width: 1200px) {
     #navbarMenu {
       display: none !important;
@@ -6,7 +8,6 @@
 
   html {
     font-size: 16px;
-    color: #222222;
     }
     
     /**** Nav Style ***/
@@ -17,7 +18,7 @@
     }
     
     .nav-link:hover {
-        color: #01838A !important;
+        color: #FFC107 !important;
         
     }
 
@@ -25,3 +26,9 @@
         color: rgba(0,0,0,.5);
         border: none;
         }
+
+    
+    #headshot {
+      max-width: 300px;
+      width: 100%;
+    }
